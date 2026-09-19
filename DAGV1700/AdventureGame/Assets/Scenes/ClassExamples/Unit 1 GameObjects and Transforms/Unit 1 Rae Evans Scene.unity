@@ -12120,6 +12120,7 @@ GameObject:
   - component: {fileID: 867629248}
   - component: {fileID: 867629247}
   - component: {fileID: 867629249}
+  - component: {fileID: 867629250}
   m_Layer: 7
   m_Name: Chest
   m_TagString: Untagged
@@ -12265,6 +12266,19 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &867629250
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 867629243}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e78bdf5ed9784e75a92c53169c936b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: {fileID: 11400000, guid: 789c6bf54acf04f09afce861ac4ee152, type: 2}
 --- !u!1 &868014825
 GameObject:
   m_ObjectHideFlags: 0
@@ -13238,6 +13252,7 @@ GameObject:
   - component: {fileID: 955868181}
   - component: {fileID: 955868180}
   - component: {fileID: 955868182}
+  - component: {fileID: 955868183}
   m_Layer: 8
   m_Name: Key
   m_TagString: Untagged
@@ -13420,6 +13435,19 @@ MonoBehaviour:
   _data:
     _json: '{"declarations":{"Kind":"Object","collection":{"$content":[],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
+--- !u!114 &955868183
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 955868175}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e78bdf5ed9784e75a92c53169c936b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: {fileID: 11400000, guid: 62f5ca3ba1227417184af51d81514838, type: 2}
 --- !u!1 &957573175
 GameObject:
   m_ObjectHideFlags: 0
