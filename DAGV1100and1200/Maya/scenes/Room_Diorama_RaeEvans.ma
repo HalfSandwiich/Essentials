@@ -1,6 +1,6 @@
 //Maya ASCII 2027 scene
 //Name: Room_Diorama_RaeEvans.ma
-//Last modified: Wed, Sep 30, 2026 10:32:03 PM
+//Last modified: Wed, Sep 30, 2026 10:36:37 PM
 //Codeset: UTF-8
 file -rdi 1 -ns "PottedPlantForDiorama" -rfn "PottedPlantForDioramaRN" -op "v=0;"
 		 -typ "mayaAscii" "/Users/halfsandwiich/GitHub/Essentials/DAGV1100and1200/Maya//scenes/PottedPlantForDiorama.ma";
@@ -19,19 +19,19 @@ fileInfo "product" "Maya 2027";
 fileInfo "version" "2027";
 fileInfo "cutIdentifier" "202606171832-bee0ff2c7e";
 fileInfo "osv" "Mac OS X 20.5.1";
-fileInfo "UUID" "5B74815D-C443-664E-B26E-4F8FD2B967E8";
+fileInfo "UUID" "127BA66C-C14A-F9DF-1F6F-0EBA356CD891";
 createNode transform -s -n "persp";
 	rename -uid "A49E5ECE-864C-E75F-77FB-C38A746ED8A7";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 14.021719533560223 14.340299026589516 15.078202249449934 ;
-	setAttr ".r" -type "double3" -29.738352725823397 -675.40000000026328 359.99999999999903 ;
+	setAttr ".t" -type "double3" 23.914126450902742 22.189585201135184 22.084368009182917 ;
+	setAttr ".r" -type "double3" -30.938352725823666 -673.80000000026234 359.99999999999829 ;
 	setAttr ".rp" -type "double3" 4.4408920985006262e-16 4.4408920985006262e-16 -8.8817841970012523e-16 ;
 	setAttr ".rpt" -type "double3" -1.1842341507185881e-16 -1.1260402196585767e-15 1.6705951680920216e-15 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "89EF1CD3-D843-6F1A-5365-D4BB26A9697F";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999986;
-	setAttr ".coi" 27.380841998918257;
+	setAttr ".coi" 41.685727671658455;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
@@ -17155,7 +17155,7 @@ createNode poseInterpolatorManager -n "poseInterpolatorManager";
 	rename -uid "A2C7527F-CC49-1A82-279B-0489FE31CB72";
 createNode displayLayerManager -n "layerManager";
 	rename -uid "58290CD3-C146-ED22-90B6-99884C711A2E";
-	setAttr ".cdl" 15;
+	setAttr ".cdl" 5;
 	setAttr -s 16 ".dli[1:15]"  1 7 3 4 5 6 2 8 
 		9 10 11 12 13 14 15;
 	setAttr -s 15 ".dli";
@@ -17223,19 +17223,16 @@ createNode script -n "sceneConfigurationScriptNode";
 	setAttr ".st" 6;
 createNode displayLayer -n "Floor";
 	rename -uid "DA8165BF-4F4F-7379-EBFF-AE9F1505B781";
-	setAttr ".dt" 2;
 	setAttr ".c" 4;
 	setAttr ".ufem" -type "stringArray" 0  ;
 	setAttr ".do" 1;
 createNode displayLayer -n "Mini_Table";
 	rename -uid "A6694746-DB4B-8628-BCB3-F680EDBF70EF";
-	setAttr ".dt" 2;
 	setAttr ".c" 22;
 	setAttr ".ufem" -type "stringArray" 0  ;
 	setAttr ".do" 5;
 createNode displayLayer -n "Maxi_Table";
 	rename -uid "2B4C90B1-E048-54D6-CF45-659DBF847C8D";
-	setAttr ".dt" 2;
 	setAttr ".c" 14;
 	setAttr ".ufem" -type "stringArray" 0  ;
 	setAttr ".do" 6;
@@ -17250,19 +17247,16 @@ createNode groupId -n "groupId19";
 	setAttr ".ihi" 0;
 createNode displayLayer -n "Wall";
 	rename -uid "55FCD21B-E046-22AC-7CE5-EBA67A07F150";
-	setAttr ".dt" 2;
 	setAttr ".c" 21;
 	setAttr ".ufem" -type "stringArray" 0  ;
 	setAttr ".do" 3;
 createNode displayLayer -n "Sofa";
 	rename -uid "3A2786E1-CF47-7D5D-3384-D98466D98C5F";
-	setAttr ".dt" 2;
 	setAttr ".c" 29;
 	setAttr ".ufem" -type "stringArray" 0  ;
 	setAttr ".do" 8;
 createNode displayLayer -n "SideTable";
 	rename -uid "088EEA79-5B40-939C-0484-FB90AA0A22B4";
-	setAttr ".dt" 2;
 	setAttr ".c" 6;
 	setAttr ".ufem" -type "stringArray" 0  ;
 	setAttr ".do" 9;
@@ -17333,7 +17327,6 @@ createNode polyBevel3 -n "polyBevel4";
 	setAttr ".sa" 30;
 createNode displayLayer -n "Television";
 	rename -uid "F99CC30C-CF4B-D121-6701-8095CD526BAE";
-	setAttr ".dt" 2;
 	setAttr ".c" 5;
 	setAttr ".ufem" -type "stringArray" 0  ;
 	setAttr ".do" 10;
@@ -17400,7 +17393,6 @@ createNode polyTweak -n "polyTweak2";
 		 0 0.085915893 -0.085915893 0 -0.085915893 0.085915893 0 -0.085915893 -0.085915893;
 createNode displayLayer -n "FramedPictures";
 	rename -uid "73BEE4AC-FF41-8937-F448-7D99A29F34EE";
-	setAttr ".dt" 2;
 	setAttr ".c" 8;
 	setAttr ".ufem" -type "stringArray" 0  ;
 	setAttr ".do" 11;
@@ -20086,7 +20078,7 @@ createNode reference -n "PottedPlantForDioramaRN";
 		+ "9997 6.802597 -6.19247770000000042 -0.39360663000000001 6.77598140000000004 -6.193284 -0.39357968999999998 6.77611540000000012 -6.19372610000000012 -0.39351209999999998 6.7754626 -6.22582579999999997 -0.4018563 6.7362757000000002 -6.22545479999999962 -0.40195619999999999 6.73676250000000021 -6.2246775999999997 -0.40199541999999999 6.73655839999999984 -6.375658 -0.38402835000000002 6.49604990000000004 -6.37614009999999976 -0.38406407999999997 6.49675129999999967 -6.37576820000000044 -0.38414901000000001 6.49744420000000034 -6.35173939999999959 -0.37686533 6.53354449999999964 -6.35205410000000015 -0.37675946999999999 6.532969 -6.35156149999999986 -0.37671687999999998 6.5323247999999996 -6.25921730000000043 -0.40753990000000001 6.67907139999999977 -6.25994060000000019 -0.40749215999999999 6.67934889999999992 -6.26018190000000008 -0.40737158000000001 6.67904 -6.29805230000000016 -0.41048153999999998 6.61472990000000038 -6.29789780000000032 -0.41060716000000003 6.61491160000000011 -6.29721069999999994 -0.41065878 "
 		+ "6.61458109999999966 -6.398891 -0.39290658000000001 6.46959830000000036 -6.39939790000000031 -0.39293125000000001 6.47032790000000002 -6.39908460000000012 -0.39299253000000001 6.47113080000000007 -6.34697770000000006 -0.41221957999999997 6.55437519999999996 -6.34677169999999968 -0.41234862999999999 6.55442619999999998 -6.346055 -0.41240102000000001 6.55405809999999978 -6.38867190000000029 -0.41341865 6.48790219999999973 -6.38948629999999973 -0.41336486 6.4882831999999997 -6.38986490000000007 -0.41323074999999998 6.48836179999999985"
 		)
-		2 "PottedPlantForDiorama:pot_" "displayType" " 2"
+		2 "PottedPlantForDiorama:pot_" "displayType" " 0"
 		2 "PottedPlantForDiorama:pot_" "visibility" " 1"
 		2 "PottedPlantForDiorama:pot_" "hideOnPlayback" " 0"
 		2 "PottedPlantForDiorama:pot_" "overrideRGBColors" " 0"
@@ -20101,7 +20093,6 @@ createNode reference -n "PottedPlantForDioramaRN";
 lockNode -l 1 ;
 createNode displayLayer -n "LargePottedPlant";
 	rename -uid "CA4E89F8-5D40-357C-03E0-D6AD80F9715F";
-	setAttr ".dt" 2;
 	setAttr ".c" 9;
 	setAttr ".ufem" -type "stringArray" 0  ;
 	setAttr ".do" 12;
@@ -35555,7 +35546,7 @@ createNode reference -n "OtherPottedPlantForDioramaRN";
 		2 "|OtherPottedPlantForDiorama:pot1|OtherPottedPlantForDiorama:pot1Shape" 
 		"pnts[8636]" " -type \"float3\" -5.9604644999999993e-08 -2.3841858000000002e-07 0"
 		
-		2 "OtherPottedPlantForDiorama:pot_" "displayType" " 2"
+		2 "OtherPottedPlantForDiorama:pot_" "displayType" " 0"
 		2 "OtherPottedPlantForDiorama:pot_" "visibility" " 1"
 		2 "OtherPottedPlantForDiorama:pot_" "displayOrder" " 2"
 		5 4 "OtherPottedPlantForDioramaRN" "|OtherPottedPlantForDiorama:pot1.drawOverride" 
@@ -35564,7 +35555,6 @@ createNode reference -n "OtherPottedPlantForDioramaRN";
 lockNode -l 1 ;
 createNode displayLayer -n "SmallPottedPlant";
 	rename -uid "1A601490-AB4A-DEAD-6289-40A2C747F4CB";
-	setAttr ".dt" 2;
 	setAttr ".c" 31;
 	setAttr ".ufem" -type "stringArray" 0  ;
 	setAttr ".do" 13;
@@ -35576,7 +35566,6 @@ createNode groupId -n "groupId29";
 	setAttr ".ihi" 0;
 createNode displayLayer -n "Candle";
 	rename -uid "6A2B97DE-2E4A-E033-C4E1-05926CF5E183";
-	setAttr ".dt" 2;
 	setAttr ".c" 20;
 	setAttr ".ufem" -type "stringArray" 0  ;
 	setAttr ".do" 14;
@@ -35593,7 +35582,6 @@ createNode polyExtrudeFace -n "polyExtrudeFace5";
 	setAttr ".cbx" -type "double3" 8.9287395477294922 -0.5 0.0062787262722849846 ;
 createNode displayLayer -n "BlackBoxThingy";
 	rename -uid "3944B207-D448-1D66-F577-8CAF7892158F";
-	setAttr ".dt" 2;
 	setAttr ".c" 1;
 	setAttr ".ufem" -type "stringArray" 0  ;
 	setAttr ".do" 15;
@@ -35809,7 +35797,6 @@ createNode polyTweak -n "polyTweak5";
 	setAttr ".tk[21]" -type "float3" -4.7986788e-16 -0.1835357 0 ;
 createNode displayLayer -n "TableObjects";
 	rename -uid "929C0263-9D45-7A9E-1F72-66A0FC5F0A49";
-	setAttr ".dt" 2;
 	setAttr ".c" 2;
 	setAttr ".ufem" -type "stringArray" 0  ;
 	setAttr ".do" 16;
@@ -35821,7 +35808,6 @@ createNode groupId -n "groupId56";
 	setAttr ".ihi" 0;
 createNode displayLayer -n "Fireplace_";
 	rename -uid "A88717BB-C543-99A9-3105-93AB7756EC7A";
-	setAttr ".dt" 2;
 	setAttr ".c" 19;
 	setAttr ".ufem" -type "stringArray" 0  ;
 	setAttr ".do" 7;
